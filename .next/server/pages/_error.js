@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(182);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(940);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(25);
+/* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
 /* harmony import */ var next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(499);
 /* harmony import */ var next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5__);
 // @ts-ignore this need to be imported from next/dist to be external
@@ -77,42 +77,6 @@ const routeModule = new PagesRouteModule({
 });
 
 //# sourceMappingURL=pages.js.map
-
-/***/ }),
-
-/***/ 25:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(893);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-;// CONCATENATED MODULE: external "stencil-pw/loader"
-const loader_namespaceObject = require("stencil-pw/loader");
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-function MyApp({ Component, pageProps }) {
-    (0,external_react_.useEffect)(()=>{
-        (0,loader_namespaceObject.applyPolyfills)().then(()=>{
-            (0,loader_namespaceObject.defineCustomElements)(window);
-        });
-    }, []);
-    return /*#__PURE__*/ jsx_runtime.jsx(Component, {
-        ...pageProps
-    });
-}
-/* harmony default export */ const _app = (MyApp);
-
 
 /***/ }),
 
@@ -207,10 +171,24 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
+/***/ 968:
+/***/ ((module) => {
+
+module.exports = require("next/head");
+
+/***/ }),
+
 /***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 262:
+/***/ ((module) => {
+
+module.exports = require("stencil-pw/loader");
 
 /***/ })
 
@@ -221,7 +199,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [940,815,499], () => (__webpack_exec__(909)));
+var __webpack_exports__ = __webpack_require__.X(0, [940,815,499,4], () => (__webpack_exec__(909)));
 module.exports = __webpack_exports__;
 
 })();
