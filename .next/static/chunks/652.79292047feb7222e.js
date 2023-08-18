@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[652],{6652:function(t,n,e){e.r(n),e.d(n,{text_field:function(){return i}});var u=e(6498),i=function(){function t(t){(0,u.r)(this,t),this.text=void 0}return t.prototype.render=function(){return(0,u.h)("div",null,(0,u.h)("h2",null,"Text Field Element"),(0,u.h)("h1",null,this.text))},t}()}}]);

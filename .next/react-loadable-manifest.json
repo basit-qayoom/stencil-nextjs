@@ -1,4 +1,10 @@
 {
+  "../node_modules/stencil-pw/dist/esm-es5/index-7e5b845b.js -> ./shadow-css-8bc6b80d.js": {
+    "id": 1686,
+    "files": [
+      "static/chunks/686.566529fd3d881372.js"
+    ]
+  },
   "../node_modules/stencil-pw/dist/esm/polyfills/index.js -> ./core-js.js": {
     "id": 2008,
     "files": [
