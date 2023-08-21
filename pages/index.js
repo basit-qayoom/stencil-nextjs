@@ -8,7 +8,7 @@ export default function Home() {
       <hr />
       <hr />
       <hr />
-      <pw-card link='Link as prop' card-title='Title from Next'>
+      <pw-card link='https://www.linkedin.com' card-title='Title from Next'>
         <a href='https://www.google.com'>Slot Link: https://www.google.com</a>
       </pw-card>
       <hr />
