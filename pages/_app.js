@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>NEXT V</title>
+        <title>Next NPM Start</title>
         <meta
           name="google-site-verification"
           content="ukpf0_hN5N4IQLTrvLSH2xd9kaWmk6E_TYRkjjNTI64"
